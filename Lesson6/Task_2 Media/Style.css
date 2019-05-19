@@ -1,0 +1,84 @@
+ .MainBlock {
+     border: 1px solid black;
+     display: flex;
+     justify-content: space-around;
+     align-content: center;
+     align-items: stretch;
+ }
+ 
+ .One {
+     display: flex;
+     background-color: rgb(246, 0, 12);
+ }
+ 
+ .Two {
+     display: flex;
+     background-color: rgb(126, 12, 25);
+ }
+ 
+ .Three {
+     display: flex;
+     background-color: rgb(87, 0, 90);
+ }
+ 
+ .Four {
+     display: flex;
+     background-color: rgb(19, 96, 1);
+ }
+ 
+ span {
+     display: block;
+     color: white;
+     font-size: 32px;
+     margin: auto;
+ }
+ 
+ @media (min-width: 120px) and (max-width: 320px) {
+     .MainBlock {
+         width: 300px;
+         height: 120px;
+         padding: 5px;
+     }
+     .MainBlock__sub {
+         width: 70px;
+         height: 70px;
+     }
+ }
+ 
+ @media (min-width: 320px) and (max-width: 767px) {
+     .MainBlock {
+         display: flex;
+         justify-content: space-around;
+         width: 500px;
+         height: 160px;
+         padding: 10px;
+     }
+     .MainBlock__sub {
+         width: 100px;
+         height: 100px;
+     }
+ }
+ 
+ @media (min-width: 768px) and (max-width: 992px) {
+     .MainBlock {
+         width: 700px;
+         height: 200px;
+         padding: 15px;
+     }
+     .MainBlock__sub {
+         width: 150px;
+         height: 150px;
+     }
+ }
+ 
+ @media (min-width: 993px) and (max-width: 1440px) {
+     .MainBlock {
+         width: 880px;
+         height: 240px;
+         padding: 20px;
+     }
+     .MainBlock__sub {
+         width: 200px;
+         height: 200px;
+     }
+ }

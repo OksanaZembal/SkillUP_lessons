@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 153);
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    background-color: gold;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#HeadBlock {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.EnterForms {
+    margin: 5px;
+    padding-left: 35%;
+}
+
+#Adres {
+    margin-left: -13px;
+    margin-right: 0px;
+}
+
+.AmountFruit {
+    margin: 5px;
+    padding-left: 215px;
+}
+
+#One {
+    padding-left: 297px;
+}
+
+#Two {
+    padding-left: 297px;
+}
+
+#Three {
+    padding-left: 297px;
+}
+
+.FavoriteFruit {
+    margin: 5px;
+    padding-left: 30%;
+}
+
+.Brochure {
+    margin: 5px;
+    padding-left: 332px;
+}
+
+.SubmitButton {
+    margin: 5px;
+    padding-left: 518px;
+}

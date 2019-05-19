@@ -1,0 +1,16 @@
+.polynom {
+    font-size: 28px;
+    word-spacing: 1, 5em;
+}
+
+sub {
+    color: blue;
+}
+
+sup {
+    color: red;
+}
+
+ul {
+    list-style-type: disc;
+}

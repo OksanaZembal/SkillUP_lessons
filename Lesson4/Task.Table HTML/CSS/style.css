@@ -1,0 +1,25 @@
+  table {
+      background-color: rgb(43, 62, 80);
+      color: white;
+      border: 1px solid grey;
+      height: 220px;
+      width: 450px;
+      border-collapse: collapse;
+  }
+  /* span {
+      display: inline block;
+      font-size: 18px;
+      margin-left: 85%;
+  } */
+  
+  table td {
+      position: relative;
+      border: 1px solid grey
+  }
+  
+  table td span {
+      position: absolute;
+      font-size: 18px;
+      bottom: 0;
+      right: 0;
+  }

@@ -1,0 +1,44 @@
+.container {
+    background-color: #ececec;
+    font-size: 24px;
+}
+
+.headerblock {
+    padding-top: 20px;
+}
+
+.greycolor {
+    background-color: rgb(242, 242, 242);
+}
+
+.numbers {
+    background-color: white;
+}
+
+.result {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 92%;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+button {
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 60px;
+}
+
+button:hover {
+    background-color: gray;
+    opacity: 50%;
+    color: white;
+    border: #ececec;
+}
+
+.col-3.col-xs-3.col-sm-3.col-md-3.col-lg-3 {
+    padding: 0px;
+    margin: 0px;
+}

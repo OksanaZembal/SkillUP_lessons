@@ -1,0 +1,29 @@
+body{
+    background: blue;
+}
+div{
+    background: red;
+    width: 100px;
+    height: 100px;
+    color:white;
+    border: 1px solid black;
+border-radius: :0px;
+}
+.d1{
+    background: red;
+    border-radius: 50px;
+}
+.d2{
+    background: yellow;
+    border-radius: 50px;
+}
+.d3{
+    background: green;
+    border-radius: 50px;
+}
+.block1{
+    background: black;
+    width: 105px;
+    height: 305px;
+
+}

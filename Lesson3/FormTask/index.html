@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/Style.css">
+    <title>FORMS Types</title>
+</head>
+
+<body>
+    <h1> The World of Fruit</h1>
+    <form name="form" method="GET" action="MyExample.php">
+        <h3 id="HeadBlock">Fruit Survey</h3>
+
+        <div class="EnterForms">
+            <label>Name</label>
+            <input name="Name" type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div class="EnterForms">
+            <label id="Adres">Address</label>
+            <input name="address" type="text" placeholder="Enter your Adress" required>
+        </div>
+        <div class="EnterForms">
+            <label>Email</label>
+            <input name="email" type="text" placeholder="Enter your Email" required>
+        </div>
+
+        <div class="AmountFruit">
+            <label>How many pieces of fruit do you eat per day?</label>
+            <input type="radio" name="Fruit" value="0">0
+            <div id="One"><input type="radio" name="Fruit" value="1">1</div>
+            <div id="Two"><input type="radio" name="Fruit" value="2">2</div>
+            <div id="Three"><input type="radio" name="Fruit" value="More then 2"> More then 2</div>
+        </div>
+        <div class="FavoriteFruit">
+            <label>My favorite fruit</label>
+            <select name="fruits" size="4">
+                <option value="apple">Apple</option>
+                <option value="ban">Banana</option>
+                <option value="plu">Plum</option>
+                <option value="pom">Pomegranate</option>
+                <option value="gr">Grape</option>
+                <option value="or">Orange</option>
+                <option value="coc">Coconut</option>
+            </select>
+        </div>
+        <div class="Brochure">
+            <label>Would you like a brochure?</label>
+            <input type="checkbox">
+        </div>
+        <div class="SubmitButton">
+            <input value="Submit" type="submit">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
