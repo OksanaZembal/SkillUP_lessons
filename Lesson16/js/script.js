@@ -1,12 +1,12 @@
 /*eslint-disable no-console */
 //eslint no - console: "error"
 // --------TASK1---------
+
 var skill = {
     name: "html",
     level: 5,
+    fullPakege: function() {
+        return this.name + " - " + this.level;
+    }
 };
-
-for (var key in skill) {
-
-    console.log(skill[key]);
-}
+console.log(skill.fullPakege());
