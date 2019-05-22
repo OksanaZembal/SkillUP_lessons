@@ -1,0 +1,84 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-expand-sm {
+    justify-content: space-between;
+}
+
+.navbar {
+    height: 140px;
+    padding: 8px 0px;
+}
+
+.banner-img {
+    position: relative;
+}
+
+.img-title {
+    position: absolute;
+    bottom: 30%;
+    left: 25%;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.mt {
+    margin-top: 60px;
+}
+
+.news-letter {
+    margin-top: 90px;
+}
+
+.news-letter-pic {
+    position: relative;
+}
+
+.news-letter-title {
+    position: absolute;
+    bottom: 80px;
+    left: 35%;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.signup-button {
+    padding: 5px 40px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.signup-button:active {
+    transform: scale(.95);
+}
+
+.signup-button:hover {
+    background-color: #b2b5b8;
+}
+
+.information {
+    text-align: center;
+}
+
+.catalogue {
+    position: relative;
+}
+
+.pic-tab {
+    position: absolute;
+    bottom: 200px;
+    left: 35%;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
