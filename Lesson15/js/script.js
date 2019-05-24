@@ -2,7 +2,7 @@
 //eslint no - console: "error"
 
 
-// --------TASK1--ВВедення масиву через promt----
+// --------TASK1--Введення масиву через promt----
 var arr = [];
 
 function getPushArray() {
@@ -41,11 +41,11 @@ console.log(getMatrixIndex(arrmatrix));
 
 
 var longString = "Lorem ipsum dolor sit amet consectetur adipisicing elit Consequuntur laboriosam nisi fuga";
-var arrey = longString.split(' ');
-console.log(arrey);
-for (var i = 0; i < arrey.length; i++) {
-    if (arrey[i].length > 5) {
-        console.log(arrey[i]);
+var array = longString.split(' ');
+console.log(array);
+for (var i = 0; i < array.length; i++) {
+    if (array[i].length > 5) {
+        console.log(array[i]);
     }
 }
 // --------TASK3 (Function method)---------
@@ -53,9 +53,9 @@ for (var i = 0; i < arrey.length; i++) {
 
 function getLongStrings() {
     var targetArray = [];
-    for (var i = 0; i < arrey.length; i++) {
-        if (arrey[i].length > 5) {
-            targetArray.push(arrey[i]);
+    for (var i = 0; i < array.length; i++) {
+        if (array[i].length > 5) {
+            targetArray.push(array[i]);
         }
     }
     return targetArray;
@@ -65,24 +65,24 @@ console.log(result);
 
 // --------TASK4---Додавання елементу до масиву---------
 
-var numberArrey = [1, 9, 22, 7, 6];
-numberArrey.splice(3, 0, 8);
-console.log(numberArrey);
+var numberArray = [1, 9, 22, 7, 6];
+numberArray.splice(3, 0, 8);
+console.log(numberArray);
 
 // --------TASK5------------Массив випадкових чисел-------
 
 var myMax = 100;
 
 function randomNumber(number) {
-    var arrey = [];
+    var array = [];
     for (var i = 0; i < number; i++) {
-        arrey.push(Math.floor(Math.random() * myMax) + 1);
+        array.push(Math.floor(Math.random() * myMax) + 1);
     }
     return arrey;
 }
-var arreyResult = randomNumber(10);
-console.log(arreyResult);
-console.log(arreyResult.indexOf(+prompt("Enter number")));
+var arrayResult = randomNumber(10);
+console.log(arrayResult);
+console.log(arrayResult.indexOf(+prompt("Enter number")));
 
 
 
@@ -106,9 +106,9 @@ console.log("The longest word is: " + getLongestWord(words));
 
 // --------TASK7-----Метод map(element)----
 
-var arreyOfNumbers = [8, 6, 12, 10];
-console.log(arreyOfNumbers);
-var square = arreyOfNumbers.map(function(sqr) {
+var arrayOfNumbers = [8, 6, 12, 10];
+console.log(arrayOfNumbers);
+var square = arrayOfNumbers.map(function(sqr) {
     return sqr * sqr;
 });
 console.log(square);
