@@ -73,6 +73,7 @@ body {
     position: absolute;
     bottom: 200px;
     left: 35%;
+    align-self: auto;
     text-align: center;
     color: white;
     font-weight: 900;

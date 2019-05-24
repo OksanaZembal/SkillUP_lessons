@@ -2,7 +2,7 @@
 //eslint no - console: "error"
 
 
-// --------TASK1--ВВедення масиву через promt----(НЕ ЗНАЮ ЯК ЗРОБИТИ)---
+// --------TASK1--ВВедення масиву через promt----
 var arr = [];
 
 function getPushArray() {
