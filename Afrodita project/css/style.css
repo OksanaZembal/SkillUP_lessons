@@ -16,6 +16,7 @@ body {
 }
 
 .img-title {
+    display: flex;
     position: absolute;
     bottom: 30%;
     left: 25%;
@@ -68,6 +69,7 @@ body {
 }
 
 .pic-tab {
+    display: flex;
     position: absolute;
     bottom: 200px;
     left: 35%;
