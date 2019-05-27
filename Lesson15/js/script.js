@@ -78,7 +78,7 @@ function randomNumber(number) {
     for (var i = 0; i < number; i++) {
         array.push(Math.floor(Math.random() * myMax) + 1);
     }
-    return arrey;
+    return array;
 }
 var arrayResult = randomNumber(10);
 console.log(arrayResult);
