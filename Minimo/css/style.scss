@@ -1,0 +1,29 @@
+//------------SCSS--------
+$ts-main:'Playfair Display',
+serif;
+$ts-sup:'Ubuntu',
+sans-serif;
+$text-title:30px;
+$text-content:14px;
+$alg:center;
+$text-color:#626262;
+$p:70px;
+//-----------CSS---------
+body {
+    font-family: $ts-main;
+}
+
+header {
+    height: 163px;
+}
+
+header a img {
+    margin-top: 70px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
