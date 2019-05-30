@@ -1,0 +1,51 @@
+body {
+    background-image: url("bground.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Georgia, Arial, serif
+}
+
+.main-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0px 200px;
+}
+
+h1 {
+    color: #eb550e;
+    font-weight: 500;
+}
+
+h1::before {
+    content: " ";
+    height: 1px;
+    width: 220px;
+    background: linear-gradient(to left, black 40%, #e2e2e2);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1::after {
+    content: " ";
+    height: 1px;
+    width: 220px;
+    background: linear-gradient(to right, black 40%, #e2e2e2);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    display: flex;
+    justify-content: flex-end;
+}
