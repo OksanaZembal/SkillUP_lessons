@@ -1,6 +1,7 @@
 /*eslint-disable no-console */
 //eslint no - console: "error"
-// --------TASK1---------(+)
+// --------TASK1---------
+// object
 
 var skill = {
     name: "html",
@@ -12,7 +13,8 @@ var skill = {
 console.log(skill.fullPackage());
 
 
-// --------TASK2--------- (-)
+// --------TASK2---------
+//Add the newString() method to the prototype String, which will do the first and the last letter to uppercase.
 
 var String = function(name) {
     this.name = name
@@ -20,11 +22,12 @@ var String = function(name) {
 String.prototype.Upper = function() {
     return this.name.charAt(0).toUpperCase() + this.name.slice(1, this.name.length - 1) + this.name.charAt(this.name.length - 1).toUpperCase();
 }
-var me = new String('oksana');
+var me = new String('lorem');
 console.log(me.Upper());
 
 
-// --------TASK3---------(+)
+// --------TASK3---------
+// Calculator
 
 var Calculator = {
     num1: 5,

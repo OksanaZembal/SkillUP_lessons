@@ -2,7 +2,8 @@
 //eslint no - console: "error"
 
 
-// --------TASK1--Введення масиву через promt----
+// --------TASK1------
+//add items to the array via the prompt(), until user click "cancel"
 var arr = [];
 
 function getPushArray() {
@@ -18,26 +19,28 @@ getPushArray();
 
 
 
-// --------TASK2--Сума елементів матриці-------
-var arrmatrix = [
+// --------TASK2---------
+//find the sum of elements of the matrix array
+var arrMatrix = [
     [1, 1, 1],
     [1, 5, 1],
     [1, 1, 1]
 ];
 
-function getMatrixIndex(arrmatrix) {
+function getMatrixIndex(arrMatrix) {
     var sum = 0;
-    for (var i = 0; i < arrmatrix.length; i++) {
-        for (var j = 0; j < arrmatrix.length; j++) {
-            sum = sum + arrmatrix[i][j];
+    for (var i = 0; i < arrMatrix.length; i++) {
+        for (var j = 0; j < arrMatrix.length; j++) {
+            sum = sum + arrMatrix[i][j];
         }
     }
     return sum;
 }
 
-console.log(getMatrixIndex(arrmatrix));
+console.log(getMatrixIndex(arrMatrix));
 
-// --------TASK3-- Перетворення рядка в масив-------
+// --------TASK3-------
+// break the lorem line by the delimiter '' and display the words in the console longer than 5 letters
 
 
 var longString = "Lorem ipsum dolor sit amet consectetur adipisicing elit Consequuntur laboriosam nisi fuga";
@@ -63,13 +66,15 @@ function getLongStrings() {
 var result = getLongStrings();
 console.log(result);
 
-// --------TASK4---Додавання елементу до масиву---------
+// --------TASK4---------
+//Given array [1, 9, 22, 7, 6], add the number 8 after number 22
 
 var numberArray = [1, 9, 22, 7, 6];
 numberArray.splice(3, 0, 8);
 console.log(numberArray);
 
-// --------TASK5------------Массив випадкових чисел-------
+// --------TASK5--------
+//write a function randomNumber (number) that fills the array random numbers from 0 to 100, check, if there is a number in array  via prompt()
 
 var myMax = 100;
 
@@ -87,9 +92,10 @@ console.log(arrayResult.indexOf(+prompt("Enter number")));
 
 
 
-// --------TASK6-----Метод forEach(element)---- 
+// --------TASK6------- 
+// with method forEach(element) find the longest word in array
 
-var loremString = "Lorem   elit Consequuntur dolor sit fugaath";
+var loremString = "Lorem elit Consequuntur dolor sit fugaath";
 var words = loremString.split(' ');
 console.log(words);
 
@@ -104,7 +110,8 @@ function getLongestWord(words) {
 }
 console.log("The longest word is: " + getLongestWord(words));
 
-// --------TASK7-----Метод map(element)----
+// --------TASK7------
+// With using the map method, create an array of square  of array
 
 var arrayOfNumbers = [8, 6, 12, 10];
 console.log(arrayOfNumbers);

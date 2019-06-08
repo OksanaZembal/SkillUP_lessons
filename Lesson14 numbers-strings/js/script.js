@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 //eslint no - console: "error"
 // --------TASK1---------
+//the function takes the random number (min, max) and outputs to the console if it is even or odd
 var myMax = 100;
 var myRandomNumber = Math.floor(Math.random() * myMax) + 1;
 console.log("The number is " + myRandomNumber);
@@ -22,6 +23,7 @@ function randomNumber(min, max) {
 console.log(randomNumber(0, 100));
 
 // --------TASK2---------
+//go through the cycle in array and combine it in a line, which capitalized the each word in to uppercase.
 
 var arr = ["banana", "orange", "apple", "mango", "strawberry", "kiwi", "lemon", "cherry"];
 for (var i = 0; i < arr.length; i++) {
@@ -33,6 +35,7 @@ console.log(arr.join(" "));
 
 
 // --------TASK3---------
+//the function takes two lines and returns a longer one
 function compareStrings(str1, str2) {
     if (str1.length > str2.length) {
         return str1 + " -this is bigger line!";
