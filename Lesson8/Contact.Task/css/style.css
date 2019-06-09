@@ -21,7 +21,7 @@ a.nav-link:hover {
     color: blue;
 }
 
-.mapbody {
+.map-body {
     position: relative;
     background-color: rgb(224, 224, 224);
     display: flex;
@@ -30,23 +30,23 @@ a.nav-link:hover {
     margin: 40px;
 }
 
-.mapbody span {
+.map-body span {
     position: absolute;
     top: 90px;
 }
 
-.footerblock {
+.footer-block {
     background-color: black;
     color: white;
     margin-top: 20px;
 }
 
-.rowblock {
+.row-block {
     display: flex;
     flex-direction: row;
 }
 
-div.wordslist {
+div.words-list {
     display: flex;
     flex-direction: row;
 }
@@ -59,7 +59,7 @@ div.wordslist {
     margin-top: 50px;
 }
 
-.contactemail {
+.contact-email {
     margin-top: 66px;
 }
 
@@ -69,7 +69,7 @@ div.wordslist {
     justify-content: space-between;
 }
 
-.intriduce {
+.introduce {
     width: 400px;
 }
 
