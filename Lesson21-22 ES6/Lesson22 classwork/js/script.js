@@ -5,7 +5,7 @@ alert(user.friends[1]);
 for (key in user) {
     if (key != "friends") {
         console.log(key + ":" + user[key])
-    } else if (key == "friends") {
+    } else {
         var sum = 0;
         var g = user[key];
         for (i = 0; i < g.length; i++) {
