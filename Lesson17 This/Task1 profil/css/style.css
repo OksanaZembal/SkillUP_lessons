@@ -1,0 +1,113 @@
+.main-wrap {
+    width: 800px;
+    height: 500px;
+    background-image: url("bground.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Georgia, Arial, serif;
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.wrap {
+    width: 552px;
+    height: 298px;
+    margin: auto;
+    padding-top: 145px;
+}
+
+.light {
+    width: 552px;
+    height: 298px;
+    position: absolute;
+    padding: 105px 106px 157px 142px;
+}
+
+.header-title {
+    width: 800px;
+    height: 11px;
+    color: #eb550e;
+    font-weight: 500;
+    margin: auto;
+}
+
+.header-title::before {
+    content: " ";
+    height: 1px;
+    width: 200px;
+    background: linear-gradient(to left, black 40%, #e2e2e2);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-title::after {
+    content: " ";
+    height: 1px;
+    width: 200px;
+    background: linear-gradient(to right, black 40%, #e2e2e2);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container {
+    width: 550px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.avatar {
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+.content {
+    position: relative;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    margin: 0%;
+}
+
+.main-text {
+    width: 371px;
+    height: 63px;
+    font-family: Georgia;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: left;
+    color: #404040;
+}
+
+.author {
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 1.85;
+    text-align: right;
+    color: #678415;
+    padding-right: 25px;
+}
+
+.text {
+    font-family: Georgia;
+    font-size: 12px;
+    padding-right: 25px;
+    line-height: 2;
+    text-align: right;
+    color: #6d6d6d;
+}
+
+.right-apost {
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 50px;
+}

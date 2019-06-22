@@ -1,0 +1,20 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.animation {
+    width: 300px;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    background: linear-gradient(to top right, yellow, blue);
+    border: 1px solid rgb(75, 100, 214);
+    box-shadow: -5px 5px 8px 2px gray;
+}
+
+.animation:hover {
+    transform-origin: top;
+    transform: rotate(-45deg);
+}
