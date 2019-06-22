@@ -1,0 +1,235 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;     */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 200px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 1.2px;
+    color: #191919;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    color: #10c9c3;
+    cursor: pointer;
+}
+
+.wrap {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10%;
+}
+
+.contact_info {
+    max-width: 370px;
+}
+
+.contact_title {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 2.8;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #171717;
+}
+
+.contact_text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #787878;
+}
+
+.contact_item {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 2.25;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #787878;
+}
+
+.contact_item-title {
+    font-weight: bold;
+}
+
+.contact_nav {
+    padding: 0;
+    list-style: none;
+}
+
+.form_wrap {
+    max-width: 670px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form_name,
+.form_mail {
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #787878;
+}
+
+.form_title {
+    width: 424px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.f-text_area {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding-left: 10px;
+    width: 424px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    margin-top: 5px;
+    margin-bottom: 100px;
+    background-color: #10c9c3;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform: 1.90;
+}
+
+.map {
+    background-color: #f5f5f5;
+}
+
+.map_content {
+    height: 470px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 80%;
+    height: 100%;
+}
+
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+    background-color: #141414;
+    padding: 60px 10%;
+    color: white;
+}
+
+.content_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.content_contact p {
+    margin: 5px 0 5px 10px;
+}
+
+.content_block-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content_menu {}
+
+.menu_introduce {
+    list-style: none;
+    padding: 0;
+}
+
+.menu_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    ;
+}
+
+.menu_news {
+    list-style: none;
+    padding-right: 60px;
+}
+
+.menu_social {
+    padding-left: 60px;
+    list-style: none;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+}
