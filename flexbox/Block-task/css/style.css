@@ -9,7 +9,7 @@
     }
     
     .wrap {
-        background-color: rgb(187, 187, 214);
+        background-color: rgb(1, 112, 254);
         width: 404px;
         height: 304px;
         display: flex;
@@ -26,13 +26,13 @@
     .yellow-block {
         background-color: yellow;
         width: 250px;
-        height: 150px;
+        height: 120px;
     }
     
     .blue-block {
         background-color: rgb(4, 33, 63);
         width: 150px;
-        height: 150px;
+        height: 120px;
     }
     
     .sub__box {
@@ -43,29 +43,27 @@
     
     .blue-block2 {
         background-color: rgb(4, 33, 63);
-        ;
         width: 200px;
-        height: 150px;
+        height: 178px;
     }
     
     .side_box {
-        width: 200px;
+        width: 199px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
     
-    .yellow-block2 {
-        background-color: yellow;
-        width: 198px;
-        height: 73px;
-        margin-bottom: 3px;
-    }
-    
     .red-block {
         background-color: red;
         width: 198px;
-        height: 73px;
+        height: 87px;
+    }
+    
+    .yellow-block2 {
+        background-color: yellow;
+        width: 198px;
+        height: 87px;
     }
     
     .text {
